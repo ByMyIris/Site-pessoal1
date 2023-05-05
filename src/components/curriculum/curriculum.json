@@ -1,0 +1,37 @@
+{
+    "resumo": "Conhecimento em análise e desenvolvimento de sistemas, possuindo experiências em organização e liderança de projetos. E com prática em soluções de conflitos, seja na parte técnica ou na pessoal. Como profissional, sempre tento ser dedicada, e desempenhar o melhor papel que me foi repassado, seja na liderança ou como técnica.",
+    "experiencia": [
+        {
+            "titulo": "Assistente Geral",
+            "descricao": "O Hamburguês",
+            "dataInicio": "2020",
+            "dataFim": "2021"
+        },
+        {
+            "titulo": "Estagiária em TI",
+            "descricao": "KnoveSeg - Soluções em Monitoramento",
+            "dataInicio": "2020",
+            "dataFim": "2023"
+        },
+        {
+            "titulo": "Professora particular",
+            "descricao": "Autônomo",
+            "dataInicio": "2021",
+            "dataFim": "2021"
+        },
+        {
+            "titulo": "Assistente administrativa",
+            "descricao": "iAB Cursos",
+            "dataInicio": "2021",
+            "dataFim": "2022"
+        },
+        {
+            "titulo": "Instrutora de programação",
+            "descricao": "SuperGeeks",
+            "dataInicio": "2023",
+            "dataFim": "Atualmente"
+        }
+    ],
+    "hard": "Conhecimento em língua estrangeira (inglês), conhecimento na análise de sistemas, experiência com design e gestão de projetos.",
+    "soft": "Comunicação, criatividade, colaboração e trabalho em equipe, comprometimento e liderança."
+}

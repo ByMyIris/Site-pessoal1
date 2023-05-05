@@ -1,0 +1,12 @@
+header img {
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+header {
+    background-color: #AB63F2;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+

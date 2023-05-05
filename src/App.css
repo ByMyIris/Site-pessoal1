@@ -1,0 +1,20 @@
+section {
+  margin: 50px;
+  padding: 50px;
+  color: #292828;
+  border-radius: 25px;
+  background-color: #D1AEF4;
+}
+
+.button {
+  border: 0;
+  color: #292828;
+  padding: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #b78ce3;
+}
+

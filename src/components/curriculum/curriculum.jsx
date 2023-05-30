@@ -4,33 +4,44 @@ import './curriculum.css';
 
 import data from './curriculum.json';
 
-function Curriculum() {
+function Curriculum(props) {
+
+    const { resumo, experienciaAcademica, experienciaProfissional } = props.curriculum;
+
+    if(!resumo || !experienciaAcademica || !experienciaProfissional) {
+        return <p>     Carregando...</p>
+    }
+
     return (
-        <Fragment>
+        <>
         <section>
-            <h2>Perfil Pessoal</h2>
-            <p>{data.resumo}</p>
+            <h2>Resumo</h2>
+            <p>{resumo}</p>
         </section>
+
         <section>
-            <h2>Histórico Profissional</h2>
+            <h2>Acadêmico</h2>
             <ul>
-                {data.experiencia.map ((item, index) => (
+                {experienciaAcademica.map ((item, index) => (
                     <li key={index}>
-                        {item.titulo} ({item.descricao}, ({item.dataInicio}) - {item.dataFim})
+                        <b> (({item.dataInicio}) - {item.dataFim}) </b> {item.titulo};
                     </li>
                 ))}
             </ul>
         </section>
+
         <section>
-            <h2>Hard Skills</h2>
-            <p>{data.hard}</p>
-        </section>
-        <section>
-            <h2>Soft Skills</h2>
-            <p>{data.soft}</p>
+            <h2>Profissional</h2>
+            <ul>
+                {experienciaProfissional.map ((item, index) => (
+                    <li key={index}>
+                        <b> (({item.dataInicio}) - {item.dataFim}) </b> {item.titulo};
+                    </li>
+                ))}
+            </ul>
         </section>
 
-        </Fragment>
+        </>
     )
 };
 

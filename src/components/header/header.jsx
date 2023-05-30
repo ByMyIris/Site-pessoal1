@@ -3,12 +3,15 @@ import iris from '../../assets/iris.jpeg';
 
 import './header.css';
 
-function Header() {
+function Header(props) {
+
+    const { nome, cargo, foto } = props.informacoes;
+
     return (
         <header>
-            <img src={iris} alt="Foto de Iris"/>
-            <h1>Iris Alencar</h1>
-            <h3>Instrutora de programação</h3>
+            <img src={foto} alt="Foto de perfil"/>
+            <h1 id='nome-perfil'>{nome}</h1>
+            <h3 id='eventoSubtitulo'>{cargo}</h3>
         </header>
     )
 }

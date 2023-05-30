@@ -94,7 +94,7 @@ function Contact() {
             </fieldset>
 
             <center>
-                <input type="submit" value="ENVIAR" className="button"/>
+                <input type="submit" value="ENVIAR" className="buttonEnviar"/>
             </center>
 
 

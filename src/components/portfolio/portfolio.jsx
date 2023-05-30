@@ -4,7 +4,7 @@ import ItemPortfolio from "../itemPortfolio/itemPortfolio";
 
 import "./Portfolio.css";
 
-function Portfolio() {
+function Portfolio({ portfolio }) {
 
     const projects = [
         {
@@ -31,14 +31,14 @@ function Portfolio() {
     
     return (
         <main>
-            {projects.map (
-                (project, index) =>
+            {portfolio.map (
+                (item, index) =>
 
                     <ItemPortfolio
                         key={index}
-                        link={project.link}
-                        image={project.image + (index + 1)}
-                        title={project.title} >
+                        link={item.link}
+                        image={item.image}
+                        title={item.title} >
                     </ItemPortfolio>
             )}
         </main>

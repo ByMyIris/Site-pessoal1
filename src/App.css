@@ -6,10 +6,25 @@ section {
   background-color: #D1AEF4;
 }
 
-.button {
+.buttonEnviar {
   border: 0;
   color: #292828;
   padding: 10px;
+  font-weight: bold;
+  border-radius: 8%;
+}
+
+.buttonEnviar:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #17c03c;
+}
+
+.button {
+  border: 0;
+  color: #292828;
+  padding: 25px;
 }
 
 .button:hover {

@@ -29,8 +29,8 @@ function App() {
         cargo: informacao.data.cargo,
       });
 
-      const experienciaAcademica = await api.get(`/experiencia`);
-      const experienciaProfissional = await api.get(`/experiencia`);
+      const experienciaAcademica = await api.get(`/experiencias`);
+      const experienciaProfissional = await api.get(`/experiencias`);
 
       setCurriculum({
         resumo: informacao.data.resumo,
